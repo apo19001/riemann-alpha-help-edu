@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+{% if question %}
+    <h1> {{question}}</h1> {{answer}}
+    <br>
+    <a href="{% url 'home' %}">Go Back!</a>
+{% else %}
+    <h1>Search Something </h1>
+{% endif %}
+{% endif %}
+{% endblock %}
