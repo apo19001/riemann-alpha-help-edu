@@ -12,10 +12,6 @@ We wanted students to be introuduced to a homework helper that would allow them 
  * Have a page that took a question and recived responses (DONE)
  * Form that required an answer before inputting a question.
 
-# Collaborators
- * Moses Apostol
- * David Strelyuk
- * Travis Smith
 
 # Development Environment
 
@@ -32,6 +28,11 @@ We wanted students to be introuduced to a homework helper that would allow them 
 
   * Django
   * wolframalpha
+
+# Collaborators
+ * Moses Apostol
+ * David Strelyuk
+ * Travis Smith
   
 
 # Useful Websites
