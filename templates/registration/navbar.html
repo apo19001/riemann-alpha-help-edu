@@ -19,6 +19,9 @@
     width: 75%;
     text-align:center;
 }
+.info {
+  padding: 10%;
+}
 </style>
 <body>
   <br>
@@ -34,9 +37,23 @@
     <center>
   <form class="d-flex" method=POST action="{% url 'search' %}">
     {% csrf_token %}
-    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="searched">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="searched" required>
+    <br>
+    <br>
+    <input class="form-control me-2" type="search" placeholder="my answer" aria-label="Search-2" name="what-i-think" required>
     <button class="btn btn-outline-secondary" type="submit">Search</button>
   </form>
+  <br>
+  <br>
+  <br>
+  <section class="info">
+  <h2>We can do</h2>
+  <ol>
+    <li> Chemistry problems i.e (Balance H2 + O2 = H20) </li>
+    <li> Math problems i.e. (1+1, 2+2, 3+3, 4*2, etc. ) </li>
+    <li> Geography problems  i.e. (What is the capital of California)</li> 
+  </ol>
+  </section>
   </center>
 </div>
 </body>
