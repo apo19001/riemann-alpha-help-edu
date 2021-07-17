@@ -33,3 +33,4 @@ We wanted students to be introuduced to a homework helper that would allow them 
 ## Sources
 - https://learndjango.com/tutorials/django-login-and-logout-tutorial
 - https://codepen.io/joshhumble/pen/PaxYqB?editors=0110
+- https://www.youtube.com/watch?v=AGtae4L5BbI
