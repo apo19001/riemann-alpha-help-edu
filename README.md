@@ -5,14 +5,19 @@ We decided to make our idea a little concrete. For it to fulfill requirements, w
 
 We wanted students to be introuduced to a homework helper that would allow them to ask questions that would be given on their homework. We wanted it to make it as simple as possible
 
-# Objectives
+## Objectives
 
  * LOGIN PAGE (DONE)
  * Query Wolfram Alpha and parse response (DONE)
  * Have a page that took a question and recived responses (DONE)
  * Form that required an answer before inputting a question.
 
-# Tools
+# Collaborators
+ * Moses Apostol
+ * David Strelyuk
+ * Travis Smith
+
+# Development Environment
 
  * Windows studio code
  * pip
@@ -29,8 +34,11 @@ We wanted students to be introuduced to a homework helper that would allow them 
   * wolframalpha
   
 
-
-## Sources
+# Useful Websites
 - https://learndjango.com/tutorials/django-login-and-logout-tutorial
 - https://codepen.io/joshhumble/pen/PaxYqB?editors=0110
 - https://www.youtube.com/watch?v=AGtae4L5BbI
+
+# Future Work
+ * Add sign in page
+ * Add multithreading
